@@ -3,4 +3,11 @@ a {color: grey;
 }
 
 header{border: 1px solid goldenrod;
+   display: flex;
+   width: 90%;
+   margin: 0 auto;
+}
+
+ol{
+   border: 1px solid goldenrod;
 }
