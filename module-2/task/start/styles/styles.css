@@ -15,8 +15,7 @@ ol{
    width: 380px;
    justify-content: space-evenly;
 }
-a 
-{
+a {
    color: grey;
    font-size: 18px;
 }
@@ -31,7 +30,7 @@ main {
    margin: 20px auto;
 }
 
-.search-container{
+.search-container {
    border: 1px solid #dfele5;
    display: flex;
    justify-content: space-evenly;
@@ -45,4 +44,25 @@ main {
 .search-container:hover {
    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
    border-color: rgba(223, 225, 229, 0);
+}
+
+main input[type"text"]{
+   width: 100%;
+   margin-top: -4px;
+   font-size: 22px;
+   border: none;
+}
+
+main input[type="text"]:focus {
+   outline: none;
+}
+
+.search--logo {
+   height: 30px;
+   width: 30px; 
+   margin-top: 5px;
+}
+
+.microphone--logo {
+   height: 30px;
 }
